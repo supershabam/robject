@@ -12,6 +12,7 @@ function Robject(name, config) {
   });
   
   this.object = {};
+  this.update();
 }
 
 Robject.prototype.update = function() {
